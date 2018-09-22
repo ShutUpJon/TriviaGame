@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src ="assets/javascript/app.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header id="mainHeader">
+            <div class="pull-left">Superhero Quiz!</div>
+            <div class="pull-right">Test Your Skills!</div>
+        </header><!--Header-->
+
+        <main>
+            <form class="questionForm" id="q1" data-question="1">
+                <h3>1. What is Spider-Man's Real Name?</h3>
+                    <ul>
+                        <li><input name="q1" type="radio" value="a" /> Wade Wilson </li>
+                        <li><input name="q1" type="radio" value="b" /> Scott Summers</li>
+                        <li><input name="q1" type="radio" value="c" /> Peter Parker</li>
+                        <li><input name="q1" type="radio" value="d" /> Miles Morales</li>
+                    </ul>
+                    <button id="submit">Submit</button>
+
+            </form>
+
+            <form class="questionForm" id="q2" data-question="2">
+                <h3>2. What is the strongest metal in the Marvel Universe?</h3>
+                    <ul>
+                        <li><input name="q2" type="radio" value="a" /> Adamantium </li>
+                        <li><input name="q2" type="radio" value="b" /> Titanium </li>
+                        <li><input name="q2" type="radio" value="c" /> Vibranium </li>
+                        <li><input name="q2" type="radio" value="d" /> Skrull Steel</li>
+                    </ul>
+                    <button id="submit">Submit</button>
+
+            </form>
+
+            <form class="questionForm" id="q3" data-question="3">
+                <h3>3. Wolverine has been a member of which Superhero Team? </h3>
+                    <ul>
+                        <li><input name="q3" type="radio" value="a" /> The X-Men </li>
+                        <li><input name="q3" type="radio" value="b" /> The Avengers </li>
+                        <li><input name="q3" type="radio" value="c" /> Alpha Flight </li>
+                        <li><input name="q3" type="radio" value="d" /> All of the Above </li>
+                    </ul>
+                    <button id="submit">Submit</button>
+
+            </form>
+
+            <form class="questionForm" id="q4" data-question="4">
+                <h3>4. What is Doctor Strange's Offical Title?</h3>
+                    <ul>
+                        <li><input name="q4" type="radio" value="a" /> The Sultan of Swat</li>
+                        <li><input name="q4" type="radio" value="b" /> The Warlock of Wit</li>
+                        <li><input name="q4" type="radio" value="c" /> The Sorcerer Supreme</li>
+                        <li><input name="q4" type="radio" value="d" /> None of the Above</li>
+                    </ul>
+                    <button id="submit">Submit</button>
+
+            </form>
+
+            <div id="results"></div>
+        </main>
+        <footer>Total: 4 Questions</footer>
+    
+    </div><!--Container-->
+</body>
+</html>
