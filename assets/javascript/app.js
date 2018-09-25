@@ -18,6 +18,14 @@ function init() {
 
 }
 
+var timer = 120;
+
+var interval = setInterval(function() {
+    timer--;
+    $('.timer').text(timer);
+    if (timer === 0) clearInterval(interval);
+}, 1000); 
+
 $(document).ready(function (){
     //Hide All Questions
     $('.questionForm').hide();
@@ -55,6 +63,7 @@ function process(n) {
         }
     }
     return false;
+    
 }
 
 //Add Event Listener
